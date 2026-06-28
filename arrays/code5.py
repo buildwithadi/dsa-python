@@ -33,12 +33,7 @@ class Solution:
             elif i in check_t:
                 check_t[i] += 1
 
-        print(check_s)
-        print(check_t)
-
         for i in check_s:
-            if i not in check_t:
-                return False
             if check_s[i] != check_t[i]:
                 return False
          
